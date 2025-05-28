@@ -28,7 +28,9 @@ public class CardTrick {
         luckyCard.setSuit("Hearts");    
 
         System.out.println("\nLooking for lucky card: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
-for (Card c : magicHand) {
+
+    
+        for (Card c : magicHand) {
             if (c.getValue() == luckyCard.getValue() &&
                 c.getSuit().equalsIgnoreCase(luckyCard.getSuit())) {
                 System.out.println("You WIN! The lucky card is in the magic hand.");
@@ -38,5 +40,5 @@ for (Card c : magicHand) {
 
         
         System.out.println("Sorry, you lose. The lucky card is not in the magic hand.");
-    }
+    }
 }
