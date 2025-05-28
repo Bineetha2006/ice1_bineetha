@@ -3,8 +3,8 @@ package card;
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
  * and checks if a hard-coded lucky card is in the hand.
- * Modifier: Kirandeep Kaur
- * Student ID: 991802972
+ * Modifier: Bineetha Sadula Balakrishna
+ * Student ID: 991787553
  * Date Modified: 2025-05-27
  */
 public class CardTrick {
